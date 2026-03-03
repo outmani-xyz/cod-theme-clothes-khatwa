@@ -31,8 +31,8 @@ msgstr "https://outmani.me"
 
 #: footer.php:12
 #: template-parts/organisms/hero.php:9
-msgid "Exceptional Moroccan Craftsmanship"
-msgstr "حرفية مغربية استثنائية"
+msgid "Modern Elegance in Every Step"
+msgstr "أناقة عصرية في كل خطوة"
 
 #: footer.php:53
 msgid "All rights reserved."
@@ -192,8 +192,8 @@ msgid "View Details"
 msgstr "عرض التفاصيل"
 
 #: template-parts/organisms/hero.php:10
-msgid "Discover our collection of traditional clogs in genuine leather."
-msgstr "اكتشف تشكيلتنا من القباقيب التقليدية من الجلد الطبيعي."
+msgid "Discover our exclusive collection of luxury Abayas and Jelbabs, handcrafted for the modern woman."
+msgstr "اكتشفوا تشكيلتنا الحصرية من العبايات والجلابيب الفاخرة، المصنوعة يدوياً للمرأة العصرية."
 
 #: template-parts/organisms/hero.php:11
 msgid "View Collection"
