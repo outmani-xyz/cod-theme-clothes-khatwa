@@ -9,7 +9,7 @@
                     <?php else : ?>
                         <h2 class="site-logo m-0"><?php bloginfo('name'); ?></h2>
                     <?php endif; ?>
-                    <p class="mt-3 text-muted"><?php echo get_theme_mod('blogdescription', __('Exceptional Moroccan Craftsmanship', 'jeldeex')); ?></p>
+                    <p class="mt-3 text-muted"><?php echo get_theme_mod('blogdescription', __('Exceptional Moroccan Craftsmanship', 'khutwa')); ?></p>
                 </div>
                 <div class="social-links-wrapper">
                     <div class="social-links d-flex gap-3 justify-content-start">
@@ -50,7 +50,7 @@
         <div class="row border-top pt-4">
             <div class="col-12 text-start text-muted">
                 <div class="site-info">
-                    <span dir="ltr" class="d-inline-block">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span>. <?php _e('All rights reserved.', 'jeldeex'); ?>
+                    <span dir="ltr" class="d-inline-block">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></span>. <?php _e('All rights reserved.', 'khutwa'); ?> | <?php _e('build by:', 'khutwa'); ?> <a href="https://outmani.me" target="_blank" rel="noopener">outmani.me</a>
                 </div><!-- .site-info -->
             </div>
         </div>

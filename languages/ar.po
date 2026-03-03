@@ -1,9 +1,9 @@
 # Copyright (C) 2026 https://outmani.me
-# This file is distributed under the same license as the JelDEEX theme.
+# This file is distributed under the same license as the khutwa theme.
 msgid ""
 msgstr ""
-"Project-Id-Version: JelDEEX 1.0.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jeldeex\n"
+"Project-Id-Version: khutwa 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/khutwa\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -12,17 +12,17 @@ msgstr ""
 "POT-Creation-Date: 2026-02-27T19:48:55+00:00\n"
 "PO-Revision-Date: 2026-02-27 20:13+0000\n"
 "X-Generator: WP-CLI 2.12.0\n"
-"X-Domain: jeldeex\n"
+"X-Domain: khutwa\n"
 
 #. Theme Name of the theme
 #: style.css
-msgid "JelDEEX"
-msgstr "JelDEEX"
+msgid "khutwa"
+msgstr "khutwa"
 
 #. Description of the theme
 #: style.css
-msgid "A minimal, mobile-first WordPress theme for the JelDEEX shoe brand."
-msgstr "قالب ووردبريس بسيط ومصمم للجوال أولاً لعلامة JelDEEX للأحذية."
+msgid "A minimal, mobile-first WordPress theme for the khutwa abaya brand."
+msgstr "قالب ووردبريس بسيط ومصمم للجوال أولاً لعلامة khutwa للعبايات."
 
 #. Author of the theme
 #: style.css
@@ -37,6 +37,11 @@ msgstr "حرفية مغربية استثنائية"
 #: footer.php:53
 msgid "All rights reserved."
 msgstr "جميع الحقوق محفوظة."
+
+#: footer.php:53
+msgid "build by:"
+msgstr "تصميم وتطوير:"
+
 
 #: functions.php:28
 msgid "Primary"

@@ -22,7 +22,7 @@
 .section-title {
     font-size: 1.4rem;
     margin-bottom: $spacing-md;
-    border-bottom: 2px solid $color-cultural;
+    border-bottom: 2px solid $color-primary;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -83,11 +83,11 @@
 }
 
 .payment-force-notice {
-    background: rgba($color-cultural, 0.05);
+    background: rgba($color-primary, 0.05);
     padding: 15px;
     border-radius: 4px;
     font-size: 0.9rem;
-    border-inline-start: 3px solid $color-cultural; // RTL fix
+    border-inline-start: 3px solid $color-primary; // RTL fix
 }
 
 /* Order Received / Thank You Page Refinements */

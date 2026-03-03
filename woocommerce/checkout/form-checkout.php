@@ -3,7 +3,7 @@
 /**
  * Ultra-Minimalist Single-Page Checkout
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 if (! defined('ABSPATH')) {
@@ -24,7 +24,7 @@ if (! $checkout->is_registration_enabled() && $checkout->is_registration_require
     <div class="checkout-grid">
         <!-- 1. Form Fields (Billing) -->
         <div class="checkout-column billing-column">
-            <h2 class="section-title"><?php esc_html_e('Informations de livraison', 'jeldeex'); ?></h2>
+            <h2 class="section-title"><?php esc_html_e('Informations de livraison', 'khutwa'); ?></h2>
             <?php if ($checkout->get_checkout_fields()) : ?>
                 <?php do_action('woocommerce_checkout_billing'); ?>
             <?php endif; ?>
@@ -32,7 +32,7 @@ if (! $checkout->is_registration_enabled() && $checkout->is_registration_require
 
         <!-- 2. Order Review & Payment -->
         <div class="checkout-column review-column">
-            <h2 class="section-title"><?php esc_html_e('Récapitulatif', 'jeldeex'); ?></h2>
+            <h2 class="section-title"><?php esc_html_e('Récapitulatif', 'khutwa'); ?></h2>
 
             <div id="order_review" class="woocommerce-checkout-review-order">
                 <?php do_action('woocommerce_checkout_order_review'); ?>

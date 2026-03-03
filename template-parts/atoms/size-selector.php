@@ -3,7 +3,7 @@
 /**
  * Native Size Selector Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 global $product;

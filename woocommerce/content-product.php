@@ -3,7 +3,7 @@
 /**
  * The template for displaying product content within loops
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 defined('ABSPATH') || exit;

@@ -3,7 +3,7 @@
 /**
  * Testimonials Organism
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $testimonial_class = get_theme_mod('testimonial_layout_class', 'bg-white shadow-sm border rounded-3 p-4');
@@ -11,7 +11,7 @@ $testimonial_class = get_theme_mod('testimonial_layout_class', 'bg-white shadow-
 
 <section class="testimonials-section py-5 bg-light border-top border-bottom">
     <div class="container container-narrow">
-        <h2 class="section-title text-center mb-5"><?php _e('What Our Customers Say', 'jeldeex'); ?></h2>
+        <h2 class="section-title text-center mb-5"><?php _e('What Our Customers Say', 'khutwa'); ?></h2>
         <div class="row g-4">
             <?php for ($i = 1; $i <= 3; $i++) :
                 $text = get_theme_mod("testimonial_{$i}_text");
@@ -20,12 +20,12 @@ $testimonial_class = get_theme_mod('testimonial_layout_class', 'bg-white shadow-
                 if (!$text && !$author) {
                     // Fallback to defaults if customizer is empty
                     $defaults_text = array(
-                        1 => __("La qualité du cuir est exceptionnelle. Une babouche qui allie confort et élégance, je recommande vivement !", 'jeldeex'),
-                        2 => __("Envoi rapide et soigné. On sent que c'est du fait main avec passion. J'adore mes sabots.", 'jeldeex'),
-                        3 => __("Minimaliste et chic. C'est exactement ce que je cherchais pour mes tenues quotidiennes.", 'jeldeex'),
+                        1 => __("La qualité du cuir est exceptionnelle. Une babouche qui allie confort et élégance, je recommande vivement !", 'khutwa'),
+                        2 => __("Envoi rapide et soigné. On sent que c'est du fait main avec passion. J'adore mes sabots.", 'khutwa'),
+                        3 => __("Minimaliste et chic. C'est exactement ce que je cherchais pour mes tenues quotidiennes.", 'khutwa'),
                     );
-                    $defaults_author = array(1 => __("Sarah B.", 'jeldeex'), 2 => __("Mehdi A.", 'jeldeex'), 3 => __("Imane T.", 'jeldeex'));
-                    $defaults_location = array(1 => __("Casablanca", 'jeldeex'), 2 => __("Rabat", 'jeldeex'), 3 => __("Marrakech", 'jeldeex'));
+                    $defaults_author = array(1 => __("Sarah B.", 'khutwa'), 2 => __("Mehdi A.", 'khutwa'), 3 => __("Imane T.", 'khutwa'));
+                    $defaults_location = array(1 => __("Casablanca", 'khutwa'), 2 => __("Rabat", 'khutwa'), 3 => __("Marrakech", 'khutwa'));
 
                     $text = $defaults_text[$i];
                     $author = $defaults_author[$i];

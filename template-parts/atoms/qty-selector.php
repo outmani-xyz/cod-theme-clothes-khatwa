@@ -3,7 +3,7 @@
 /**
  * Quantity Selector Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $value = $args['value'] ?? 1;

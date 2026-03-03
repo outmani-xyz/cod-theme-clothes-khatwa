@@ -13,12 +13,12 @@
     <?php wp_body_open(); ?>
 
     <div id="page" class="site">
-        <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'jeldeex'); ?></a>
+        <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'khutwa'); ?></a>
 
-        <?php if (get_theme_mod('announcement_bar_text', __('FREE DELIVERY EVERYWHERE IN MOROCCO', 'jeldeex'))) : ?>
+        <?php if (get_theme_mod('announcement_bar_text', __('FREE DELIVERY EVERYWHERE IN MOROCCO', 'khutwa'))) : ?>
             <div class="announcement-bar text-center">
                 <div class="container">
-                    <?php echo esc_html(get_theme_mod('announcement_bar_text', __('FREE DELIVERY EVERYWHERE IN MOROCCO', 'jeldeex'))); ?>
+                    <?php echo esc_html(get_theme_mod('announcement_bar_text', __('FREE DELIVERY EVERYWHERE IN MOROCCO', 'khutwa'))); ?>
                 </div>
             </div>
         <?php endif; ?>
@@ -50,7 +50,7 @@
                                 <span class="hamburger-box">
                                     <span class="hamburger-inner"></span>
                                 </span>
-                                <span class="screen-reader-text"><?php esc_html_e('Menu', 'jeldeex'); ?></span>
+                                <span class="screen-reader-text"><?php esc_html_e('Menu', 'khutwa'); ?></span>
                             </button>
 
                             <div class="menu-wrapper">
@@ -69,7 +69,7 @@
                         </nav><!-- #site-navigation -->
 
                         <div class="header-icons ms-4">
-                            <a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="cart-contents d-flex align-items-center text-decoration-none" title="<?php esc_attr_e('View your shopping cart', 'jeldeex'); ?>">
+                            <a href="<?php echo esc_url(wc_get_cart_url()); ?>" class="cart-contents d-flex align-items-center text-decoration-none" title="<?php esc_attr_e('View your shopping cart', 'khutwa'); ?>">
                                 <span class="cart-icon me-2">🛒</span>
                                 <span class="cart-count badge bg-primary"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
                             </a>

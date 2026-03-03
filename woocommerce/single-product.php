@@ -3,7 +3,7 @@
 /**
  * Single Product page logic
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 if (! defined('ABSPATH')) {

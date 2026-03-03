@@ -1,7 +1,7 @@
 {
-  "name": "jeldeex",
+  "name": "khutwa",
   "version": "1.0.0",
-  "description": "JelDEEX SASS Config",
+  "description": "khutwa SASS Config",
   "main": "index.js",
   "scripts": {
     "sass-dev": "sass --no-source-map --watch --style=compressed assets/sass:assets/stylesheets",

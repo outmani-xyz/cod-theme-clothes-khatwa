@@ -3,7 +3,7 @@
 /**
  * Product loop start
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 if (! defined('ABSPATH')) {

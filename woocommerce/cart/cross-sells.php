@@ -8,7 +8,7 @@ defined('ABSPATH') || exit;
 if ($cross_sells) : ?>
     <div class="cross-sells mb-5">
         <?php
-        $heading = apply_filters('woocommerce_product_cross_sells_products_heading', __('New in store', 'jeldeex'));
+        $heading = apply_filters('woocommerce_product_cross_sells_products_heading', __('New in store', 'khutwa'));
 
         if ($heading) :
         ?>

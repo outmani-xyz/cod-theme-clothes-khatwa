@@ -3,7 +3,7 @@
 /**
  * Customizer Singleton Class
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 if (! defined('ABSPATH')) {
@@ -60,9 +60,9 @@ if (! class_exists('Customizer')) {
             // Section: Social Media
             // ==========================================
             $wp_customize->add_section(
-                'jeldeex_social_media',
+                'khutwa_social_media',
                 array(
-                    'title'    => __('Social Media Links', 'jeldeex'),
+                    'title'    => __('Social Media Links', 'khutwa'),
                     'priority' => 30,
                 )
             );
@@ -78,8 +78,8 @@ if (! class_exists('Customizer')) {
             $wp_customize->add_control(
                 'social_facebook',
                 array(
-                    'label'   => __('Facebook URL', 'jeldeex'),
-                    'section' => 'jeldeex_social_media',
+                    'label'   => __('Facebook URL', 'khutwa'),
+                    'section' => 'khutwa_social_media',
                     'type'    => 'url',
                 )
             );
@@ -95,8 +95,8 @@ if (! class_exists('Customizer')) {
             $wp_customize->add_control(
                 'social_instagram',
                 array(
-                    'label'   => __('Instagram URL', 'jeldeex'),
-                    'section' => 'jeldeex_social_media',
+                    'label'   => __('Instagram URL', 'khutwa'),
+                    'section' => 'khutwa_social_media',
                     'type'    => 'url',
                 )
             );
@@ -112,8 +112,8 @@ if (! class_exists('Customizer')) {
             $wp_customize->add_control(
                 'social_tiktok',
                 array(
-                    'label'   => __('TikTok URL', 'jeldeex'),
-                    'section' => 'jeldeex_social_media',
+                    'label'   => __('TikTok URL', 'khutwa'),
+                    'section' => 'khutwa_social_media',
                     'type'    => 'url',
                 )
             );
@@ -122,9 +122,9 @@ if (! class_exists('Customizer')) {
             // Section: Testimonials
             // ==========================================
             $wp_customize->add_section(
-                'jeldeex_testimonials',
+                'khutwa_testimonials',
                 array(
-                    'title'    => __('Testimonials (Home Page)', 'jeldeex'),
+                    'title'    => __('Testimonials (Home Page)', 'khutwa'),
                     'priority' => 35,
                 )
             );
@@ -141,8 +141,8 @@ if (! class_exists('Customizer')) {
                 $wp_customize->add_control(
                     "testimonial_{$i}_text",
                     array(
-                        'label'   => sprintf(__('Testimonial %d - Text', 'jeldeex'), $i),
-                        'section' => 'jeldeex_testimonials',
+                        'label'   => sprintf(__('Testimonial %d - Text', 'khutwa'), $i),
+                        'section' => 'khutwa_testimonials',
                         'type'    => 'textarea',
                     )
                 );
@@ -158,8 +158,8 @@ if (! class_exists('Customizer')) {
                 $wp_customize->add_control(
                     "testimonial_{$i}_author",
                     array(
-                        'label'   => sprintf(__('Testimonial %d - Author', 'jeldeex'), $i),
-                        'section' => 'jeldeex_testimonials',
+                        'label'   => sprintf(__('Testimonial %d - Author', 'khutwa'), $i),
+                        'section' => 'khutwa_testimonials',
                         'type'    => 'text',
                     )
                 );
@@ -175,8 +175,8 @@ if (! class_exists('Customizer')) {
                 $wp_customize->add_control(
                     "testimonial_{$i}_location",
                     array(
-                        'label'   => sprintf(__('Testimonial %d - Location', 'jeldeex'), $i),
-                        'section' => 'jeldeex_testimonials',
+                        'label'   => sprintf(__('Testimonial %d - Location', 'khutwa'), $i),
+                        'section' => 'khutwa_testimonials',
                         'type'    => 'text',
                     )
                 );
@@ -189,9 +189,9 @@ if (! class_exists('Customizer')) {
         private function get_default_testimonial_text($index)
         {
             $defaults = array(
-                1 => __("The leather quality is exceptional. A babouche that combines comfort and elegance, I highly recommend!", 'jeldeex'),
-                2 => __("Fast and careful shipping. You can feel it's handmade with passion. I love my clogs.", 'jeldeex'),
-                3 => __("Minimalist and chic. It's exactly what I was looking for for my daily outfits.", 'jeldeex'),
+                1 => __("The leather quality is exceptional. A babouche that combines comfort and elegance, I highly recommend!", 'khutwa'),
+                2 => __("Fast and careful shipping. You can feel it's handmade with passion. I love my clogs.", 'khutwa'),
+                3 => __("Minimalist and chic. It's exactly what I was looking for for my daily outfits.", 'khutwa'),
             );
             return isset($defaults[$index]) ? $defaults[$index] : '';
         }

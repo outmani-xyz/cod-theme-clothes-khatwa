@@ -3,7 +3,7 @@
 /**
  * The main template file
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 get_header(); ?>
@@ -26,7 +26,7 @@ get_header(); ?>
 	<?php
 		endwhile;
 	else :
-		echo '<p class="text-start">' . __('No content found.', 'jeldeex') . '</p>';
+		echo '<p class="text-start">' . __('No content found.', 'khutwa') . '</p>';
 	endif;
 	?>
 

@@ -3,7 +3,7 @@
 /**
  * Product Grid Organism
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $title = $args['title'] ?? '';
@@ -31,7 +31,7 @@ $products = $args['products'] ?? array();
             <?php
                 endforeach;
             else :
-                echo '<div class="col-12 text-center text-muted"><p>' . __('No products found.', 'jeldeex') . '</p></div>';
+                echo '<div class="col-12 text-center text-muted"><p>' . __('No products found.', 'khutwa') . '</p></div>';
             endif;
             ?>
         </div>

@@ -3,7 +3,7 @@
 /**
  * Price Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $product = $args['product'] ?? null;

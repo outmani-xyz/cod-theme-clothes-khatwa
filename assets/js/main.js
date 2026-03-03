@@ -1,14 +1,14 @@
 /**
- * JelDEEX Main Scripts (Final Reliability Fix)
+ * khutwa Main Scripts (Final Reliability Fix)
  * Ensures swatches work even with AJAX and various WC versions
  */
 (function ($) {
     'use strict';
 
     $(function () {
-        console.log('Jeldeex Final JS: Activated');
+        console.log('khutwa Final JS: Activated');
 
-        console.log('Jeldeex Final JS: Activated');
+        console.log('khutwa Final JS: Activated');
 
         // Note: Cart click deliberately excluded so it goes straight to /cart/
 
@@ -22,7 +22,7 @@
             const value = $btn.data('value');
             const $form = $btn.closest('form.variations_form');
 
-            console.log('Jeldeex: Clicked swatch value=' + value + ' for attr=' + attrName);
+            console.log('khutwa: Clicked swatch value=' + value + ' for attr=' + attrName);
 
             const $select = $form.find('select[name="' + attrName + '"]');
             if ($select.length) {
@@ -36,9 +36,9 @@
                 // Trigger form update
                 $form.trigger('check_variations');
 
-                console.log('Jeldeex: Updated select and triggered check_variations');
+                console.log('khutwa: Updated select and triggered check_variations');
             } else {
-                console.error('Jeldeex: Could not find select name=' + attrName);
+                console.error('khutwa: Could not find select name=' + attrName);
             }
         });
 

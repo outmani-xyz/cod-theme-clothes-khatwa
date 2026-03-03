@@ -5,7 +5,7 @@
  * 
  * Unifies the design of category and shop pages with a Sidebar.
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 defined('ABSPATH') || exit;

@@ -1,16 +1,16 @@
 <?php
 
 /**
- * TGM Plugin Activation configuration for JelDEEX theme.
+ * TGM Plugin Activation configuration for khutwa theme.
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
 
-add_action('tgmpa_register', 'jeldeex_register_required_plugins');
+add_action('tgmpa_register', 'khutwa_register_required_plugins');
 
-function jeldeex_register_required_plugins()
+function khutwa_register_required_plugins()
 {
     $plugins = array(
         array(
@@ -21,7 +21,7 @@ function jeldeex_register_required_plugins()
     );
 
     $config = array(
-        'id'           => 'jeldeex',               // Unique ID for hashing notices for multiple instances of TGMPA.
+        'id'           => 'khutwa',               // Unique ID for hashing notices for multiple instances of TGMPA.
         'default_path' => '',                      // Default absolute path to bundled plugins.
         'menu'         => 'tgmpa-install-plugins', // Menu slug.
         'has_notices'  => true,                    // Show admin notices or not.

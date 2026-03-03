@@ -3,7 +3,7 @@
 /**
  * Input Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $type = $args['type'] ?? 'text';

@@ -3,7 +3,7 @@
 /**
  * Template Name: Home Page
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 get_header(); ?>
@@ -22,19 +22,19 @@ get_header(); ?>
     ));
 
     get_template_part('template-parts/organisms/product-grid', '', array(
-        'title' => __('TOP POPULAR', 'jeldeex'),
+        'title' => __('TOP POPULAR', 'khutwa'),
         'products' => $popular_products
     ));
 
     // 3. Best Sellers
     get_template_part('template-parts/organisms/product-grid', '', array(
-        'title' => __('BEST SELLERS', 'jeldeex'),
+        'title' => __('BEST SELLERS', 'khutwa'),
         'products' => $popular_products // Reusing for now
     ));
 
     // 4. Promotions
     get_template_part('template-parts/organisms/product-grid', '', array(
-        'title' => __('PROMOTIONS', 'jeldeex'),
+        'title' => __('PROMOTIONS', 'khutwa'),
         'products' => $popular_products // Reusing for now
     ));
     ?>

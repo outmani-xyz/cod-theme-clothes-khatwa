@@ -3,12 +3,12 @@
 /**
  * Hero Organism
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
-$title = $args['title'] ?? __('Exceptional Moroccan Craftsmanship', 'jeldeex');
-$subtitle = $args['subtitle'] ?? __('Discover our collection of traditional clogs in genuine leather.', 'jeldeex');
-$button_text = $args['button_text'] ?? __('View Collection', 'jeldeex');
+$title = $args['title'] ?? __('Exceptional Moroccan Craftsmanship', 'khutwa');
+$subtitle = $args['subtitle'] ?? __('Discover our collection of traditional clogs in genuine leather.', 'khutwa');
+$button_text = $args['button_text'] ?? __('View Collection', 'khutwa');
 $button_url = $args['button_url'] ?? '/shop';
 ?>
 

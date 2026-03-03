@@ -3,13 +3,13 @@
 /**
  * Mini Cart Organism (Minimalist)
  *
- * @package JelDEEX
+ * @package khutwa
  */
 ?>
 
 <div id="mini-cart-panel" class="mini-cart-panel">
     <div class="mini-cart-header">
-        <h3><?php _e('YOUR CART', 'jeldeex'); ?></h3>
+        <h3><?php _e('YOUR CART', 'khutwa'); ?></h3>
         <button class="close-cart">&times;</button>
     </div>
 

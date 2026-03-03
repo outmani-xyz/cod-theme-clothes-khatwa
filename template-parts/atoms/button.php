@@ -3,7 +3,7 @@
 /**
  * Button Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $text = $args['text'] ?? 'Commander';

@@ -3,7 +3,7 @@
 /**
  * Custom Single Product Template
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 defined('ABSPATH') || exit;
@@ -28,7 +28,7 @@ if (post_password_required()) {
                     if ($post_thumbnail_id) {
                         echo wp_get_attachment_image($post_thumbnail_id, 'full', false, array('class' => 'img-fluid rounded'));
                     } else {
-                        echo '<div class="placeholder-img bg-light ratio ratio-1x1 d-flex align-items-center justify-content-center"><span>' . __('Image not available', 'jeldeex') . '</span></div>';
+                        echo '<div class="placeholder-img bg-light ratio ratio-1x1 d-flex align-items-center justify-content-center"><span>' . __('Image not available', 'khutwa') . '</span></div>';
                     }
                     ?>
                 </div>

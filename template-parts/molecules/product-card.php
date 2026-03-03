@@ -3,7 +3,7 @@
 /**
  * Product Card Molecule
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $product = $args['product'] ?? null;
@@ -39,7 +39,7 @@ $url = get_permalink($product_id);
 
         <div class="product-actions">
             <a href="<?php echo esc_url($url); ?>" class="btn btn-outline btn-sm w-100">
-                <?php _e('View Details', 'jeldeex'); ?>
+                <?php _e('View Details', 'khutwa'); ?>
             </a>
         </div>
     </div>

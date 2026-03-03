@@ -3,7 +3,7 @@
 /**
  * Product Title Atom
  *
- * @package JelDEEX
+ * @package khutwa
  */
 
 $title = $args['title'] ?? 'Sabot Traditionnel';
