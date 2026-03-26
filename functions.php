@@ -93,7 +93,7 @@ add_action('wp_enqueue_scripts', 'khutwa_scripts', 99);
 /**
  * Remove standard WooCommerce Billing fields for minimalist checkout
  */
-add_filter('woocommerce_checkout_fields', 'khutwa_override_checkout_fields');
+add_filter('woocommerce_checkout_fields', 'khutwa_override_checkout_fields',9999);
 function khutwa_override_checkout_fields($fields)
 {
     // 1. Relabel First Name to "Full Name"
@@ -442,4 +442,9 @@ function khutwa_cart_count_fragments($fragments)
 <?php
     $fragments['span.cart-count'] = ob_get_clean();
     return $fragments;
+}
+
+add_filter('woocommerce_currency_symbol', 'change_my_currency_symbol', 10, 2);
+function change_my_currency_symbol( $currency_symbol, $currency ) {
+	return 'DH';
 }
