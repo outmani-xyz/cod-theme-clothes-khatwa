@@ -181,6 +181,51 @@ if (! class_exists('Customizer')) {
                     )
                 );
             }
+            
+            // ==========================================
+            // Section: Product Features
+            // ==========================================
+            $wp_customize->add_section(
+                'khutwa_product_features',
+                array(
+                    'title'    => __('Product Features (Badge)', 'khutwa'),
+                    'priority' => 40,
+                )
+            );
+
+            // Setting: Badge Title
+            $wp_customize->add_setting(
+                'feature_badge_title',
+                array(
+                    'default'           => '',
+                    'sanitize_callback' => 'sanitize_text_field',
+                )
+            );
+            $wp_customize->add_control(
+                'feature_badge_title',
+                array(
+                    'label'   => __('Badge Title', 'khutwa'),
+                    'section' => 'khutwa_product_features',
+                    'type'    => 'text',
+                )
+            );
+
+            // Setting: Badge Subtitle
+            $wp_customize->add_setting(
+                'feature_badge_subtitle',
+                array(
+                    'default'           => '',
+                    'sanitize_callback' => 'sanitize_text_field',
+                )
+            );
+            $wp_customize->add_control(
+                'feature_badge_subtitle',
+                array(
+                    'label'   => __('Badge Subtitle', 'khutwa'),
+                    'section' => 'khutwa_product_features',
+                    'type'    => 'text',
+                )
+            );
         }
 
         /**

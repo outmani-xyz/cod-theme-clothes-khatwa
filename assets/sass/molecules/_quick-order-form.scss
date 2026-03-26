@@ -1,0 +1,190 @@
+@import '../variables';
+
+.quick-order-form-container {
+    background-color: #ffffff;
+    border: 2px solid $color-primary;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.quick-order-title {
+    font-family: 'Cairo', sans-serif;
+    color: darken($color-primary, 15%);
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    position: relative;
+    padding-bottom: 15px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background: $color-primary;
+        border-radius: 2px;
+    }
+}
+
+.quick-order-form {
+    .form-label {
+        font-weight: 700;
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 8px;
+        text-align: center;
+        /* Center labels as requested */
+        width: 100%;
+    }
+
+    .form-control {
+        border: 1px solid #ddd;
+        padding: 14px 18px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        font-size: 1.1rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-align: center;
+        /* Center input text as requested */
+        width: 100%;
+
+        &::placeholder {
+            color: #aaa;
+            font-size: 0.95rem;
+            text-align: center;
+        }
+
+        &:focus {
+            background-color: #fff;
+            border-color: $color-primary;
+            box-shadow: 0 0 0 4px rgba($color-primary, 0.15);
+        }
+    }
+}
+
+.buy-now-btn {
+    background: linear-gradient(135deg, $color-primary 0%, darken($color-primary, 15%) 100%);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba($color-primary, 0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    padding: 18px !important;
+    position: relative;
+    overflow: hidden;
+    margin-top: 25px;
+    /* Added space between inputs and button */
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+
+    .main-btn-text {
+        font-size: 1.35rem;
+        letter-spacing: 0;
+        margin-bottom: 4px;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 35px rgba($color-primary, 0.5);
+        background: linear-gradient(135deg, lighten($color-primary, 5%) 0%, darken($color-primary, 10%) 100%);
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg,
+                transparent,
+                rgba(255, 255, 255, 0.2),
+                transparent);
+        transition: 0.5s;
+    }
+
+    &:hover::before {
+        left: 100%;
+        transition: 0.5s;
+    }
+}
+
+.quick-order-trust {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    font-weight: 600;
+
+    span {
+        display: flex;
+        align-items: center;
+        background: #f8f9fa;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .quick-order-form-container {
+        padding: 20px !important;
+    }
+
+    .quick-order-title {
+        font-size: 1.2rem;
+    }
+}
+
+// Hide standard WC button and quantity when our form is present
+.variations_form,
+.cart {
+
+    .single_add_to_cart_button,
+    .quantity,
+    .qty {
+        display: none !important;
+    }
+}
+
+// Ensure injected fields look premium and match simple product form
+.quick-order-variable-fields {
+    background-color: #ffffff;
+    border: 2px solid $color-primary;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+
+    .form-control {
+        border: 1px solid #ddd;
+        padding: 12px 15px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+
+        &:focus {
+            border-color: $color-primary;
+            box-shadow: 0 0 0 4px rgba($color-primary, 0.1);
+        }
+    }
+
+    .form-label {
+        font-weight: 700;
+        text-align: center;
+        display: block;
+        margin-bottom: 5px;
+    }
+}

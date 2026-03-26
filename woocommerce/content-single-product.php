@@ -62,13 +62,13 @@ if (post_password_required()) {
                         if ($product->is_type('variable')) {
                             woocommerce_variable_add_to_cart();
                         } else {
-                            woocommerce_simple_add_to_cart();
+                            get_template_part('template-parts/molecules/quick-order-form');
                         }
                         ?>
                     </div>
 
                     <div class="mt-4">
-                        <?php get_template_part('template-parts/atoms/artisan-badge'); ?>
+                        <?php get_template_part('template-parts/atoms/feature-badge'); ?>
                     </div>
                 </div>
             </div>

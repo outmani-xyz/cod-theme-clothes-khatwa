@@ -5,7 +5,7 @@
 @use 'utilities';
 
 // Atoms
-@use 'atoms/artisan-badge';
+@use 'atoms/feature-badge';
 @use 'atoms/button';
 @use 'atoms/input';
 @use 'atoms/price';
@@ -16,6 +16,7 @@
 // Molecules
 @use 'molecules/form-field';
 @use 'molecules/product-card';
+@use 'molecules/quick-order-form';
 
 // Organisms
 @use 'organisms/header';
